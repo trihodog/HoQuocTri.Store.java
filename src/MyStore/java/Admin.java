@@ -93,9 +93,9 @@ public class Admin {
                 products.setPrice(newPrice);
                 products.setQuantity(newQuatyti);
             }
-            if (seach ==false) {
+          
+            }if (seach ==false) {
                 System.err.println("Không Tìm Thấy Mã Sp");
-            }
         }
     }
 
@@ -236,9 +236,9 @@ public class Admin {
                 dsKH.get(i).setEmail(newEmail);
                 dsKH.get(i).setPhoneNumber(newPhoneNumber);
             }
-            if(seach==false){
+
+            }if(seach==false){
                 System.out.println("Không Tìm Thấy Mã KH");
-            }
         }
     }
 
